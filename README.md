@@ -22,6 +22,7 @@ GET /inquiry/all
 
 #### Inquiry 관련
 **Inquiry 조회** : GET /inquiry/all
+
 ![image](https://user-images.githubusercontent.com/67543838/166749500-51318ffc-0cbc-4ac6-9787-3080c8d2fdda.png)
 
 ### Step to run
