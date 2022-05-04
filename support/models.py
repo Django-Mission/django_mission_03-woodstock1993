@@ -51,7 +51,7 @@ class Inquiry(models.Model):
 
 class InquiryAdmin(admin.ModelAdmin):
     list_display = ('phone_number','email','created_by', 'inquiry_status')
-    search_fields = ['phone_number', 'email', 'created_by']
+    search_fields = ['phone_number', 'email', 'inquiry_status']
 
 class Answer(models.Model):
     writer = models.ForeignKey(to=User, on_delete=models.CASCADE)
