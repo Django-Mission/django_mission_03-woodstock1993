@@ -16,7 +16,7 @@
 
 > ### ERD
 
-
+![my](https://user-images.githubusercontent.com/67543838/166806638-0fb86cb7-78b0-426a-9e14-3afe42eafadd.png)
 
 > ### API 명세
 GET /inquiry/all
