@@ -21,7 +21,9 @@ GET /inquiry/all
 
 
 ### Inquiry 관련
-**Inquiry 조회** : GET /inquiry/all
+**Inquiry admin** : GET /127.0.0.1:8000/admin/support/inquiry/?q=admin
+
+![image](https://user-images.githubusercontent.com/67543838/166804245-c0be1364-f2f9-4017-b9f8-241e88029cab.png)
 
 
 ### Step to run
