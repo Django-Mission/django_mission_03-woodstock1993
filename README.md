@@ -16,8 +16,12 @@
 
 > ### ERD
 
+
+
 > ### API 명세
 GET /inquiry/all
+
+![image](https://user-images.githubusercontent.com/67543838/166804876-24924e1d-ff1a-4865-89d4-d68bfba73b83.png)
 
 
 ### Inquiry 관련
