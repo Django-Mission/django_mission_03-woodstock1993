@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib import admin
 from django.contrib.auth import get_user_model
 from django.core.validators import RegexValidator
 User = get_user_model() 
@@ -47,6 +48,10 @@ class Inquiry(models.Model):
     created_by =  models.ForeignKey(to=User, on_delete=models.CASCADE, related_name='inquiry_created_by')
     updated_by =  models.ForeignKey(to=User, on_delete=models.CASCADE, related_name='inquiry_updated_by')
     image = models.ImageField(verbose_name='이미지', null=True, blank=True)
+
+
+class UserAdmin(admin.modelAdmin):
+    search_fields = ['phone_number', 'email', 'username']
 
 class Answer(models.Model):
     writer = models.ForeignKey(to=User, on_delete=models.CASCADE)
