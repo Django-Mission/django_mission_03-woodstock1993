@@ -15,13 +15,12 @@
 - 2022.04.27 - 2022.05.05
 
 > ### ERD
-> 
-> ### API 명세
-#### advertiser 관련
-**광고주 조회** : GET /api/advertiser
-<img src="./source/madup_api_advertiser_list.png" alt="api_advertiser_list"/>
 
-- pk 값에 해당하는 광고주의 정보를 조회합니다.
+> ### API 명세
+
+
+#### Inquiry 관련
+**Inquiry 조회** : GET /inquiry/all
 
 ### Step to run
 ```
