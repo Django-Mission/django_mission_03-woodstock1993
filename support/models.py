@@ -49,9 +49,7 @@ class Inquiry(models.Model):
     updated_by =  models.ForeignKey(to=User, on_delete=models.CASCADE, related_name='inquiry_updated_by')
     image = models.ImageField(verbose_name='이미지', null=True, blank=True)
 
-class InquiryAdmin(admin.ModelAdmin):
-    list_display = ('phone_number','email','created_by', 'inquiry_status')
-    search_fields = ['phone_number', 'email', 'inquiry_status', 'created_by__username']
+
 
 class Answer(models.Model):
     writer = models.ForeignKey(to=User, on_delete=models.CASCADE)
