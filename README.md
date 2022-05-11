@@ -16,14 +16,19 @@
 
 > ### ERD
 
+![my](https://user-images.githubusercontent.com/67543838/166806638-0fb86cb7-78b0-426a-9e14-3afe42eafadd.png)
+
 > ### API 명세
 GET /inquiry/all
 
+![image](https://user-images.githubusercontent.com/67543838/166804876-24924e1d-ff1a-4865-89d4-d68bfba73b83.png)
+
 
 ### Inquiry 관련
-**Inquiry 조회** : GET /inquiry/all
+**Inquiry admin** : GET /127.0.0.1:8000/admin/support/inquiry/?q=admin
 
-![image](https://user-images.githubusercontent.com/67543838/166749500-51318ffc-0cbc-4ac6-9787-3080c8d2fdda.png)
+![image](https://user-images.githubusercontent.com/67543838/166804245-c0be1364-f2f9-4017-b9f8-241e88029cab.png)
+
 
 ### Step to run
 ```
